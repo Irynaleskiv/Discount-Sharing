@@ -1,6 +1,6 @@
 {
   "name": "garage",
-  "app_id": "",
+  "app_id": "discount-sharing",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
