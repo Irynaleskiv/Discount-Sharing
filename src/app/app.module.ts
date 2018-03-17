@@ -28,6 +28,7 @@ import { SupportPage } from '../pages/support/support';
 
 import { ConferenceData } from '../providers/conference-data';
 import { UserData } from '../providers/user-data';
+import { AuthService } from "../providers/auth.service";
 
 import { Facebook } from '@ionic-native/facebook';
 
@@ -96,7 +97,8 @@ import { Facebook } from '@ionic-native/facebook';
     UserData,
     InAppBrowser,
     SplashScreen,
-    Facebook
+    Facebook,
+    AuthService
   ]
 })
 export class AppModule { }

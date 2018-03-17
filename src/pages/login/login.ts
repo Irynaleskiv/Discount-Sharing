@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NgForm } from '@angular/forms';
+// import { NgForm } from '@angular/forms';
 
 import { NavController } from 'ionic-angular';
 
@@ -9,6 +9,7 @@ import { UserOptions } from '../../interfaces/user-options';
 
 import { TabsPage } from '../tabs-page/tabs-page';
 import { SignupPage } from '../signup/signup';
+import { AuthService } from "../../providers/auth.service";
 
 
 @Component({
@@ -19,15 +20,22 @@ export class LoginPage {
   login: UserOptions = { username: '', password: '' };
   submitted = false;
 
-  constructor(public navCtrl: NavController, public userData: UserData) { }
+  constructor(public navCtrl: NavController, public userData: UserData, private authService: AuthService) { }
 
-  onLogin(form: NgForm) {
+  onLogin() {
     this.submitted = true;
 
-    if (form.valid) {
+    this.authService.facebookLogin()
+      .then((data) => {
+        console.log('data', data);
+        this.userData.login(this.login.username);
+        this.navCtrl.push(TabsPage);
+      });
+
+    // if (form.valid) {
       this.userData.login(this.login.username);
-      this.navCtrl.push(TabsPage);
-    }
+    //   this.navCtrl.push(TabsPage);
+    // }
   }
 
   onSignup() {
