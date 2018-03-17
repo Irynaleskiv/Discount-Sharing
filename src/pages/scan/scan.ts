@@ -9,7 +9,8 @@ import { PopoverPage } from '../about-popover/about-popover';
     templateUrl: 'scan.html'
 })
 export class ScanPage implements OnInit {
-    conferenceDate = '2047-05-17';
+    private barcodeData: any;
+    private showCard: boolean = false;
 
     constructor(public popoverCtrl: PopoverController,
                 private barcodeScanner: BarcodeScanner,) { }
@@ -24,14 +25,12 @@ export class ScanPage implements OnInit {
     }
 
     scan() {
-        this.barcodeScanner.scan().then((barcodeData) => {
-            // this.barcodeScanner.encode(barcodeData.format, '111111').then((data) => {
-            //     console.log('data', data);
-            // });
+        this.barcodeScanner.scan().then(barcodeData => {
             console.log('barcodeData', barcodeData);
-
+            this.showCard = true;
+            this.barcodeData = barcodeData;
         }, (err) => {
-            console.log('err', err);
+            console.log('error while scanning code', err);
         });
     }
 }
