@@ -33,6 +33,7 @@
     "cordova-ios": "^4.5.2",
     "cordova-plugin-crosswalk-webview": "^2.3.0",
     "cordova-plugin-device": "^1.1.6",
+    "cordova-plugin-facebook4": "^1.9.1",
     "cordova-plugin-inappbrowser": "^1.7.1",
     "cordova-plugin-ionic-keyboard": "^2.0.2",
     "cordova-plugin-ionic-webview": "^1.1.15",
@@ -71,7 +72,11 @@
       "cordova-plugin-whitelist": {},
       "cordova-plugin-ionic-webview": {},
       "cordova-plugin-statusbar": {},
-      "cordova-plugin-ionic-keyboard": {}
+      "cordova-plugin-ionic-keyboard": {},
+      "cordova-plugin-facebook4": {
+        "APP_ID": "2038807103061106",
+        "APP_NAME": "discount-sharing"
+      }
     }
   }
 }

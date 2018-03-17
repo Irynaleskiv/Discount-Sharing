@@ -87,4 +87,8 @@
     <plugin name="cordova-plugin-ionic-webview" spec="^1.1.15" />
     <plugin name="cordova-plugin-statusbar" spec="^2.2.3" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.0.2" />
+    <plugin name="cordova-plugin-facebook4" spec="^1.9.1">
+        <variable name="APP_ID" value="2038807103061106" />
+        <variable name="APP_NAME" value="discount-sharing" />
+    </plugin>
 </widget>
