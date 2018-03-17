@@ -21,6 +21,9 @@ export class AboutPage {
 
   scan() {
       this.barcodeScanner.scan().then((barcodeData) => {
+          // this.barcodeScanner.encode(barcodeData.format, '111111').then((data) => {
+          //     console.log('data', data);
+          // });
           console.log('barcodeData', barcodeData);
       }, (err) => {
           console.log('err', err);
