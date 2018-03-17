@@ -257,8 +257,8 @@
 	],
 	"speakers": [
 		{
-			"name": "Burt Bear",
-			"profilePic": "assets/img/speakers/bear.jpg",
+			"name": "Silpo",
+			"profilePic": "https://antikor.com.ua/foto/articles_foto/2016/05/24/105194.jpg",
 			"twitter": "ionicframework",
 			"about": "Burt is a Bear.",
 			"location": "Everywhere",
@@ -267,8 +267,8 @@
 			"id": "1"
 		},
 		{
-			"name": "Charlie Cheetah",
-			"profilePic": "assets/img/speakers/cheetah.jpg",
+			"name": "!FEST",
+			"profilePic": "https://upload.wikimedia.org/wikipedia/uk/2/26/%D0%9B%D0%BE%D0%B3%D0%BE-%D1%84%D0%B5%D1%81%D1%82.jpg",
 			"twitter": "ionicframework",
 			"about": "Charlie is a Cheetah.",
 			"location": "Everywhere",
@@ -277,8 +277,8 @@
 			"id": "2"
 		},
 		{
-			"name": "Donald Duck",
-			"profilePic": "assets/img/speakers/duck.jpg",
+			"name": "Tommy Hilfiger",
+			"profilePic": "https://m.media-amazon.com/images/S/aplus-media/vc/a1fa2d01-1b0b-4b8a-b94d-5b66e49b0f3a._SR970,300_.png",
 			"twitter": "ionicframework",
 			"about": "Donald is a Duck.",
 			"location": "Everywhere",
@@ -287,8 +287,8 @@
 			"id": "3"
 		},
 		{
-			"name": "Eva Eagle",
-			"profilePic": "assets/img/speakers/eagle.jpg",
+			"name": "Luxoptica",
+			"profilePic": "https://www.ekvator.ua/photos/logos/554a0dc56ecbe2d153b1b76a152fbedb8df36c65a8da1.jpg",
 			"twitter": "ionicframework",
 			"about": "Eva is an Eagle.",
 			"location": "Everywhere",
@@ -297,8 +297,8 @@
 			"id": "4"
 		},
 		{
-			"name": "Ellie Elephant",
-			"profilePic": "assets/img/speakers/elephant.jpg",
+			"name": "Zara",
+			"profilePic": "http://pres.upmedia.cz/media/k2/items/cache/52512ea22a562cf90be67292acd11948_XL.jpg",
 			"twitter": "ionicframework",
 			"about": "Ellie is an Elephant.",
 			"location": "Everywhere",
@@ -307,8 +307,8 @@
 			"id": "5"
 		},
 		{
-			"name": "Gino Giraffe",
-			"profilePic": "assets/img/speakers/giraffe.jpg",
+			"name": "Timberland",
+			"profilePic": "http://www.regentstreetonline.com/UploadedImages/2317c334-b3d3-4402-87d5-bcbd4088b0bb.jpg",
 			"twitter": "ionicframework",
 			"about": "Gino is a Giraffe.",
 			"location": "Everywhere",
@@ -317,8 +317,8 @@
 			"id": "6"
 		},
 		{
-			"name": "Isabella Iguana",
-			"profilePic": "assets/img/speakers/iguana.jpg",
+			"name": "Foxtrot",
+			"profilePic": "http://toplogos.ru/images/logo-fokstrot.jpg",
 			"twitter": "ionicframework",
 			"about": "Isabella is an Iguana.",
 			"location": "Everywhere",
@@ -327,8 +327,8 @@
 			"id": "7"
 		},
 		{
-			"name": "Karl Kitten",
-			"profilePic": "assets/img/speakers/kitten.jpg",
+			"name": "Pharmacy D.S",
+			"profilePic": "https://www.apteka.ua/wp-4.7.5/wp-content/uploads/2017/10/2352352356236.jpg",
 			"twitter": "ionicframework",
 			"about": "Karl is a Kitten.",
 			"location": "Everywhere",
@@ -337,54 +337,14 @@
 			"id": "8"
 		},
 		{
-			"name": "Lionel Lion",
-			"profilePic": "assets/img/speakers/lion.jpg",
+			"name": "Okko",
+			"profilePic": "https://www.okko.ua/uploads2016/news/azs/GRYFON_319.jpg",
 			"twitter": "ionicframework",
 			"about": "Lionel is a Lion.",
 			"location": "Everywhere",
 			"email": "lionel@example.com",
 			"phone": "+1-541-754-3010",
 			"id": "9"
-		},
-		{
-			"name": "Molly Mouse",
-			"profilePic": "assets/img/speakers/mouse.jpg",
-			"twitter": "ionicframework",
-			"about": "Molly is a Mouse.",
-			"location": "Everywhere",
-			"email": "molly@example.com",
-			"phone": "+1-541-754-3010",
-			"id": "10"
-		},
-		{
-			"name": "Paul Puppy",
-			"profilePic": "assets/img/speakers/puppy.jpg",
-			"twitter": "ionicframework",
-			"about": "Paul is a Puppy.",
-			"location": "Everywhere",
-			"email": "paul@example.com",
-			"phone": "+1-541-754-3010",
-			"id": "11"
-		},
-		{
-			"name": "Rachel Rabbit",
-			"profilePic": "assets/img/speakers/rabbit.jpg",
-			"twitter": "ionicframework",
-			"about": "Rachel is a Rabbit.",
-			"location": "Everywhere",
-			"email": "rachel@example.com",
-			"phone": "+1-541-754-3010",
-			"id": "12"
-		},
-		{
-			"name": "Ted Turtle",
-			"profilePic": "assets/img/speakers/turtle.jpg",
-			"twitter": "ionicframework",
-			"about": "Ted is a Turtle.",
-			"location": "Everywhere",
-			"email": "ted@example.com",
-			"phone": "+1-541-754-3010",
-			"id": "13"
 		}
 	],
 	"map": [
