@@ -29,3 +29,15 @@ page-map #map_canvas.show-map {
 ion-app._gmaps_cdv_ .nav-decor{
   background-color: transparent !important;
 }
+.search_card {
+  border-radius: 64px;
+  padding: 0 2.6rem;
+  height: 2.8em;
+  font-size: 1.6rem;
+  color: #fff;
+  background-color: #003366;
+  margin: .4rem .2rem;
+}
+.search_card:hover {
+  background: #00264d;
+}
