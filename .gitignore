@@ -1,9 +1,8 @@
-/.idea
-/.tmp
-/.sourcemaps
+.idea
+.tmp
+.sourcemaps
 
-
-./node-modules
-/platforms
-/plugins
-/www
+node-modules
+platforms
+plugins
+www
