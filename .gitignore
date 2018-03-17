@@ -6,3 +6,5 @@ node-modules
 platforms
 plugins
 www
+
+package-lock.json
