@@ -14,5 +14,5 @@
 
 <ion-content>
   <button ion-button color="dark" full round (click)="scan()">Scan</button>
-  <ngx-barcode [bc-value]="barcodeData.text" [bc-display-value]="showCard"></ngx-barcode>
+  <ngx-barcode [bc-value]="barcodeData?.text" [bc-display-value]="showCard"></ngx-barcode>
 </ion-content>
