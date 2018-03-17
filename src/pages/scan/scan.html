@@ -13,6 +13,6 @@
 </ion-header>
 
 <ion-content>
-  <button ion-button color="dark" full round (click)="scan()">Start Scan</button>
-  <ngx-barcode [bc-value]="123465" [bc-display-value]="true"></ngx-barcode>
+  <button ion-button color="dark" full round (click)="scan()">Scan</button>
+  <ngx-barcode [bc-value]="barcodeData.text" [bc-display-value]="showCard"></ngx-barcode>
 </ion-content>

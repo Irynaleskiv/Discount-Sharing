@@ -33,7 +33,7 @@
     "build": "0.1.4",
     "cordova-android": "7.0.0",
     "cordova-android-support-gradle-release": "^1.2.0",
-    "cordova-ios": "^4.5.2",
+    "cordova-ios": "4.5.4",
     "cordova-plugin-crosswalk-webview": "^2.4.0",
     "cordova-plugin-device": "^1.1.7",
     "cordova-plugin-inappbrowser": "^1.7.2",
@@ -59,8 +59,8 @@
   },
   "cordova": {
     "platforms": [
-      "ios",
-      "android"
+      "android",
+      "ios"
     ],
     "plugins": {
       "cordova-plugin-crosswalk-webview": {
