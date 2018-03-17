@@ -79,8 +79,6 @@
     <preference name="SplashScreenDelay" value="3000" />
     <preference name="SplashShowOnlyFirstTime" value="false" />
     <allow-navigation href="http://10.10.120.46:8100" />
-    <engine name="ios" spec="^4.5.2" />
-    <engine name="android" spec="7.0.0" />
     <plugin name="cordova-plugin-crosswalk-webview" spec="^2.4.0">
         <variable name="XWALK_VERSION" value="22+" />
         <variable name="XWALK_LITEVERSION" value="xwalk_core_library_canary:17+" />
@@ -99,4 +97,6 @@
     <plugin name="cordova-android-support-gradle-release" spec="^1.2.0">
         <variable name="ANDROID_SUPPORT_VERSION" value="26.+" />
     </plugin>
+    <engine name="android" spec="7.0.0" />
+    <engine name="ios" spec="~4.5.4" />
 </widget>

@@ -1,18 +1,23 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { PopoverController } from 'ionic-angular';
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
 
 import { PopoverPage } from '../about-popover/about-popover';
 
 @Component({
-    selector: 'page-about',
-    templateUrl: 'about.html'
+    selector: 'page-scan',
+    templateUrl: 'scan.html'
 })
-export class AboutPage {
-    conferenceDate = '2047-05-17';
+export class ScanPage implements OnInit {
+    private barcodeData: any;
+    private showCard: boolean = false;
 
     constructor(public popoverCtrl: PopoverController,
                 private barcodeScanner: BarcodeScanner,) { }
+
+    ngOnInit() {
+
+    }
 
     presentPopover(event: Event) {
         let popover = this.popoverCtrl.create(PopoverPage);
@@ -20,13 +25,12 @@ export class AboutPage {
     }
 
     scan() {
-        this.barcodeScanner.scan().then((barcodeData) => {
-            // this.barcodeScanner.encode(barcodeData.format, '111111').then((data) => {
-            //     console.log('data', data);
-            // });
+        this.barcodeScanner.scan().then(barcodeData => {
             console.log('barcodeData', barcodeData);
+            this.showCard = true;
+            this.barcodeData = barcodeData;
         }, (err) => {
-            console.log('err', err);
+            console.log('error while scanning code', err);
         });
     }
 }
