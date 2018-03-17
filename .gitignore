@@ -1,10 +1,9 @@
-.idea
+.bin
+.sourcemap
 .tmp
-.sourcemaps
+.idea
 
-node-modules
-platforms
-plugins
-www
-
-package-lock.json
+/node-modules
+/platforms
+/plugins
+/www
