@@ -1,5 +1,9 @@
-/node-modules
 /.idea
+/.tmp
+/.sourcemaps
+
+
+./node-modules
 /platforms
 /plugins
 /www
