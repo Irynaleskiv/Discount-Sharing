@@ -11,7 +11,7 @@ import { IonicStorageModule } from '@ionic/storage';
 
 import { ConferenceApp } from './app.component';
 
-import { AboutPage } from '../pages/about/about';
+import { ScanPage } from '../pages/scan/scan';
 import { PopoverPage } from '../pages/about-popover/about-popover';
 import { AccountPage } from '../pages/account/account';
 import { LoginPage } from '../pages/login/login';
@@ -29,12 +29,13 @@ import { SupportPage } from '../pages/support/support';
 import { ConferenceData } from '../providers/conference-data';
 import { UserData } from '../providers/user-data';
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
+import { NgxBarcodeModule } from "ngx-barcode";
 
 
 @NgModule({
   declarations: [
     ConferenceApp,
-    AboutPage,
+    ScanPage,
     AccountPage,
     LoginPage,
     MapPage,
@@ -61,7 +62,7 @@ import { BarcodeScanner } from '@ionic-native/barcode-scanner';
         { component: SpeakerListPage, name: 'SpeakerList', segment: 'speakerList' },
         { component: SpeakerDetailPage, name: 'SpeakerDetail', segment: 'speakerDetail/:speakerId' },
         { component: MapPage, name: 'Map', segment: 'map' },
-        { component: AboutPage, name: 'About', segment: 'about' },
+        { component: ScanPage, name: 'About', segment: 'about' },
         { component: TutorialPage, name: 'Tutorial', segment: 'tutorial' },
         { component: SupportPage, name: 'SupportPage', segment: 'support' },
         { component: LoginPage, name: 'LoginPage', segment: 'login' },
@@ -69,12 +70,13 @@ import { BarcodeScanner } from '@ionic-native/barcode-scanner';
         { component: SignupPage, name: 'SignupPage', segment: 'signup' }
       ]
     }),
-    IonicStorageModule.forRoot()
+    IonicStorageModule.forRoot(),
+    NgxBarcodeModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     ConferenceApp,
-    AboutPage,
+    ScanPage,
     AccountPage,
     LoginPage,
     MapPage,
