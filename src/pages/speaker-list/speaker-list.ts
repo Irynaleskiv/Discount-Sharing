@@ -29,7 +29,7 @@ export interface ActionSheetButton {
 })
 export class SpeakerListPage {
   actionSheet: ActionSheet;
-  speakers: any[] = [];
+  speakers: any[];
 
   constructor(
     public actionSheetCtrl: ActionSheetController,

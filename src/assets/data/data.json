@@ -21,7 +21,7 @@
 						{
 							"name": "Lacoste",
 							"location": "Horodotska St, 181, Lviv",
-							"bg": "https://www.firstclasswatches.co.uk/blog/wp-content/uploads/2017/11/Lacoste-Symbol.jpeg",
+							"bg": "assets/img/cards/Lacoste-Symbol.jpeg",
 							"tracks": [
 								"Shop",
 								"Clothes"
@@ -39,7 +39,7 @@
 					"sessions": [
 						{
 							"name": "Locale",
-							"bg": "https://pp.userapi.com/c412119/v412119778/7e98/iasyYW4ZJrU.jpg",
+							"bg": "assets/img/cards/iasyYW4ZJrU.jpg",
 							"location": "Rynok Square, 10, L'viv",
 							"tracks": [
 								"Food",
@@ -50,7 +50,7 @@
 						},
 						{
 							"name": "Brocard",
-							"bg": "http://aveplaza.com.ua/ru/ave-img/shop-logo/brocard.png",
+							"bg": "assets/img/cards/brocard.png",
 							"location": "Serbska St, 3, L'viv",
 							"tracks": [
 								"Shop",
@@ -63,7 +63,7 @@
 						},
 						{
 							"name": "Foxtrot Card",
-							"bg": "https://i.work.ua/employer_design/2/3/3/9233_page_company_header_4.png",
+							"bg": "assets/img/cards/9233_page_company_header_4.png",
 							"location": "Horodotska St, 16, Lviv",
 							"description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
 							"speakerNames": [
@@ -77,7 +77,7 @@
 						},
 						{
 							"name": "Medis",
-							"bg": "http://truskavetsinfo.net/uploads/posts/2014-02/1391694090_medis-truskavets-2.jpg",
+							"bg": "assets/img/cards/1391694090_medis-truskavets-2.jpg",
 							"location": "72 Heroiv UPA St, L'viv",
 							"tracks": [
 								"Health"
@@ -166,7 +166,7 @@
 			"email": "burt@example.com",
 			"phone": "+1-541-754-3010",
 			"id": "1",
-			"background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmoNbblHWaDX4EwOSHUIkxW_vEhPRaFnKr25uPOBIGaQHls7Ql"
+			"background": "assets/img/offers/1.jpg"
 		},
 		{
 			"name": "!FEST",
@@ -177,7 +177,7 @@
 			"email": "charlie@example.com",
 			"phone": "+1-541-754-3010",
 			"id": "2",
-			"background": "https://23188-presscdn-pagely.netdna-ssl.com/wp-content/uploads/2011/09/Screen-Shot-2011-09-26-at-2.20.56-PM.png"
+			"background": "assets/img/offers/2.jpeg"
 		},
 		{
 			"name": "Tommy Hilfiger",
@@ -188,7 +188,7 @@
 			"email": "donald@example.com",
 			"phone": "+1-541-754-3010",
 			"id": "3",
-			"background": "https://smhttp-ssl-33667.nexcesscdn.net/manual/wp-content/uploads/2016/10/barbour-sale-800x410.jpg"
+			"background": "assets/img/offers/3.jpeg"
 		},
 		{
 			"name": "Luxoptica",
@@ -199,7 +199,7 @@
 			"email": "eva@example.com",
 			"phone": "+1-541-754-3010",
 			"id": "4",
-			"background": "https://www.moosejaw.com/moosejaw/Moosejaw/images/searchslot/TNF_SS.jpg"
+			"background": "assets/img/offers/4.jpg"
 		},
 		{
 			"name": "Zara",
@@ -210,7 +210,7 @@
 			"email": "ellie@example.com",
 			"phone": "+1-541-754-3010",
 			"id": "5",
-			"background": "http://sg.everydayonsales.com/wp-content/uploads/2013/05/Timberland-Sale-2013-All-Shopping-Discounts-Savings-Offer-EverydayOnSales_thumb.jpg"
+			"background": "assets/img/offers/5.png"
 		},
 		{
 			"name": "Timberland",
@@ -221,7 +221,7 @@
 			"email": "gino@example.com",
 			"phone": "+1-541-754-3010",
 			"id": "6",
-			"background": "https://www.offeraty.com/sites/default/files/styles/ofr_core_offer_sale/public/offers/zara.jpg?itok=XEjvYeoq"
+			"background": "assets/img/offers/6.jpg"
 		},
 		{
 			"name": "Foxtrot",
@@ -232,7 +232,7 @@
 			"email": "isabella@example.com",
 			"phone": "+1-541-754-3010",
 			"id": "7",
-			"background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmoNbblHWaDX4EwOSHUIkxW_vEhPRaFnKr25uPOBIGaQHls7Ql"
+			"background": "assets/img/offers/7.jpg"
 		},
 		{
 			"name": "Pharmacy D.S",
@@ -243,7 +243,7 @@
 			"email": "karl@example.com",
 			"phone": "+1-541-754-3010",
 			"id": "8",
-			"background": "http://www.everydayonsales.com/wp-content/uploads/2014/10/Lacoste-Off-Season-Clearance-Sale-Warehouse-2014-Malaysia-Fashion-Apparels-Shoes-Discounts-Jualan-Gudang-Kilang-Factory-Wholesale-Prices-Buy-Sell-Mega-Shopping-Great-Deals-EverydayOnSales.jpg"
+			"background": "assets/img/offers/8.jpg"
 		}
 	],
 	"map": [
