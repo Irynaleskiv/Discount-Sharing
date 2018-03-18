@@ -20,6 +20,8 @@ import { ScheduleFilterPage } from '../schedule-filter/schedule-filter';
   templateUrl: 'schedule.html'
 })
 export class SchedulePage {
+
+    flipped: boolean = false;
   // the list is a child of the schedule page
   // @ViewChild('scheduleList') gets a reference to the list
   // with the variable #scheduleList, `read: List` tells it to return
@@ -44,6 +46,11 @@ export class SchedulePage {
     public confData: ConferenceData,
     public user: UserData,
   ) {}
+
+
+  flip(session) {
+    session.flipped = !session.flipped;
+  }
 
   ionViewDidLoad() {
     this.app.setTitle('Schedule');

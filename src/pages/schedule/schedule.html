@@ -44,19 +44,27 @@
 				<!--</ion-label>-->
 			<!--</ion-item-divider>-->
 
-			<ion-item-sliding *ngFor="let session of group.sessions" #slidingItem
+			<ion-item-sliding *ngFor="let session of group.sessions; let i = index" #slidingItem
 			                  [attr.track]="session.tracks[0] | lowercase" [hidden]="session.hide">
 
-				<!--<button ion-item (click)="goToSessionDetail(session)">-->
-					<!---->
-					<!--<h3>{{session.name}}</h3>-->
-					<!--<p>-->
-						<!--{{session.location}}-->
-					<!--</p>-->
-				<!--</button>-->
+				<ion-card ion-item>
+					<div class="flip-container" (click)="flip(session)" [class.flipped]="session.flipped">
 
-				<ion-card ion-item (click)="goToSessionDetail(session)">
-					<img class="card-image" [src]="session.bg" alt="/">
+						<div class="flipper">
+
+							<div class="front">
+								<img class="card-image" [src]="session.bg" alt="/">
+							</div>
+
+							<div class="back">
+								<!--<img class="card-image opacity_image" [src]="session.bg" alt="/">-->
+								<ngx-barcode [bc-value]="12345" [bc-display-value]="true" style="position: absolute; margin: 0 auto;"></ngx-barcode>
+							</div>
+
+						</div>
+
+					</div>
+
 					<!--<div class="card-title">{{ session.name }}</div>-->
 					<!--<div class="card-subtitle">64 Listings</div>-->
 					<!--<h3>{{session.name}}</h3>-->

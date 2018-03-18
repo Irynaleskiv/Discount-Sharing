@@ -26,7 +26,8 @@
 								"Shop",
 								"Clothes"
 							],
-							"id": "9"
+							"id": "9",
+							"flipped": false
 						}
 					]
 				},
@@ -46,7 +47,8 @@
 								"Restaurant",
 								"Shop"
 							],
-							"id": "3"
+							"id": "3",
+							"flipped": false
 						},
 						{
 							"name": "Brocard",
@@ -59,7 +61,8 @@
 							"speakerNames": [
 								"!Fest"
 							],
-							"id": "2"
+							"id": "2",
+							"flipped": false
 						},
 						{
 							"name": "Foxtrot Card",
@@ -73,7 +76,8 @@
 								"Electronics",
 								"Shop"
 							],
-							"id": "8"
+							"id": "8",
+							"flipped": false
 						},
 						{
 							"name": "Medis",
@@ -82,7 +86,8 @@
 							"tracks": [
 								"Health"
 							],
-							"id": "10"
+							"id": "10",
+							"flipped": false
 						}
 
 					]
