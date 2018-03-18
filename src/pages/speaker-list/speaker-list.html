@@ -8,17 +8,9 @@
 </ion-header>
 
 <ion-content class="outer-content speaker-list">
-  <ion-list [virtualScroll]="speakers">
-    <ion-grid fixed>
-      <ion-row align-items-stretch>
-
-        <ion-col col-12 col-md-6 align-self-stretch align-self-center *virtualItem="let speaker" approxItemHeight="457px">
-          <ion-card class="speaker-card" style="border-radius: 10px;">
-            <img [src]="speaker.background" alt="/">
-          </ion-card>
-        </ion-col>
-
-      </ion-row>
-    </ion-grid>
+  <ion-list style="background: transparent">
+    <ion-card io-item class="speaker-card" style="border-radius: 10px;" *ngFor="let speaker of speakers">
+      <img [src]="speaker.background" alt="/">
+    </ion-card>
   </ion-list>
 </ion-content>
