@@ -1,6 +1,6 @@
 page-speaker-list {
   .scroll-content {
-    background: #EDEDED;
+    background: linear-gradient(to bottom right, #0a0a29, #4ca4a1);
   }
 
   .speaker-card {
@@ -32,7 +32,3 @@ page-speaker-list {
 .toolbar-title-ios, .toolbar-title-md {
   color: #e6e6e6;
 }
-ion-list {
-  background: linear-gradient(to bottom right, #0a0a29, #4ca4a1);
-}
-
