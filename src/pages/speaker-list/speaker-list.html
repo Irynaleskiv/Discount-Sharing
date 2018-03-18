@@ -13,31 +13,11 @@
       <ion-row align-items-stretch>
 
         <ion-col col-12 col-md-6 align-self-stretch align-self-center *virtualItem="let speaker" approxItemHeight="457px">
-
-          <ion-card class="speaker-card">
-            <ion-card-header>
-              <button ion-item detail-none (click)="goToSpeakerDetail(speaker)">
-                <ion-avatar item-start>
-                  <img [src]="speaker.profilePic" alt="Speaker profile pic">
-                </ion-avatar>
-                {{speaker.name}}
-              </button>
-            </ion-card-header>
-
-            <ion-card-content class="outer-content">
-              <!--<ion-list>-->
-                <!--<button ion-item *ngFor="let session of speaker.sessions" (click)="goToSessionDetail(session)">-->
-                  <!--<h3>{{session.name}}</h3>-->
-                <!--</button>-->
-
-                <!--&lt;!&ndash;<button ion-item (click)="goToSpeakerDetail(speaker)">&ndash;&gt;-->
-                  <!--&lt;!&ndash;<h3>About {{speaker.name}}</h3>&ndash;&gt;-->
-                <!--&lt;!&ndash;</button>&ndash;&gt;-->
-              <!--</ion-list>-->
-            </ion-card-content>
+          <ion-card class="speaker-card" style="border-radius: 10px;">
+            <img [src]="speaker.background" alt="/">
           </ion-card>
-
         </ion-col>
+
       </ion-row>
     </ion-grid>
   </ion-list>
