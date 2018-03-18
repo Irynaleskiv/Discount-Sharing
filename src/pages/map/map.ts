@@ -233,15 +233,6 @@ export class MapPage {
             content: `<button  class="search_card">Search card</button>`
           });
 
-          // const image = {
-          //   url: 'assets/img/markerX2.png',
-          //   size: new google.maps.Size(50, 50),
-          //   scaledSize: new google.maps.Size(35, 35),
-          //   origin: new google.maps.Point(0, 0),
-          //   anchor: new google.maps.Point(0, 0),
-          // };
-
-
           let marker = new google.maps.Marker({
             position: markerData,
             map: map,

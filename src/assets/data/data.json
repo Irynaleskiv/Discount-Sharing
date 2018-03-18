@@ -351,8 +351,7 @@
 		{
 			"name": "levis",
 			"lat": 49.8495992,
-			"lng": 24.0203692,
-			"center": true
+			"lng": 24.0203692
 		},
 		{
 			"name": "stradivarius",
@@ -417,7 +416,8 @@
 		{
 			"name": "e",
 			"lat": 49.8493992,
-			"lng": 24.0208692
+			"lng": 24.0208692,
+			"center": true
 		},
 		{
 			"name": "f",
