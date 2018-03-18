@@ -19,15 +19,12 @@
 					"time": "D",
 					"sessions": [
 						{
-							"name": "D.S Card",
+							"name": "Lacoste",
 							"location": "Horodotska St, 181, Lviv",
-							"description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-							"speakerNames": [
-								"Pharmacy D.S"
-							],
+							"bg": "assets/img/cards/Lacoste-Symbol.jpeg",
 							"tracks": [
-								"Pharmacy",
-								"Health"
+								"Shop",
+								"Clothes"
 							],
 							"id": "9"
 						}
@@ -41,11 +38,9 @@
 					"time": "F",
 					"sessions": [
 						{
-							"name": "Lviv Coffee Manufacture",
+							"name": "Locale",
+							"bg": "assets/img/cards/iasyYW4ZJrU.jpg",
 							"location": "Rynok Square, 10, L'viv",
-							"speakerNames": [
-								"!Fest"
-							],
 							"tracks": [
 								"Food",
 								"Restaurant",
@@ -54,12 +49,12 @@
 							"id": "3"
 						},
 						{
-							"name": "Lviv Handmade Chocolate",
+							"name": "Brocard",
+							"bg": "assets/img/cards/brocard.png",
 							"location": "Serbska St, 3, L'viv",
 							"tracks": [
-								"Food",
-								"Restaurant",
-								"Shop"
+								"Shop",
+								"Clothes"
 							],
 							"speakerNames": [
 								"!Fest"
@@ -68,6 +63,7 @@
 						},
 						{
 							"name": "Foxtrot Card",
+							"bg": "assets/img/cards/9233_page_company_header_4.png",
 							"location": "Horodotska St, 16, Lviv",
 							"description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
 							"speakerNames": [
@@ -80,18 +76,11 @@
 							"id": "8"
 						},
 						{
-							"name": "Fishka Card",
+							"name": "Medis",
+							"bg": "assets/img/cards/1391694090_medis-truskavets-2.jpg",
 							"location": "72 Heroiv UPA St, L'viv",
-							"description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-							"speakerNames": [
-								"Okko"
-							],
-							"timeStart": "11:30 am",
-							"timeEnd": "11:50 am",
 							"tracks": [
-								"Food",
-								"Restaurant",
-								"Car"
+								"Health"
 							],
 							"id": "10"
 						}
@@ -118,26 +107,7 @@
 					"time": "K",
 					"sessions": []
 				},
-				{
-					"time": "L",
-					"sessions": [
-						{
-							"name": "Luxoptica Discount Card",
-							"location": "3, Shevchenka Ave, Lviv",
-							"speakerNames": [
-								"Luxoptica"
-							],
-							"timeStart": "10:00 am",
-							"timeEnd": "10:15 am",
-							"tracks": [
-								"Shop",
-								"Health"
-							],
-							"id": "5"
-						}
 
-					]
-				},
 				{
 					"time": "M",
 					"sessions": []
@@ -162,57 +132,7 @@
 					"time": "R",
 					"sessions": []
 				},
-				{
-					"time": "S",
-					"sessions": [
-						{
-							"name": "My Silpo discount 10%",
-							"location": "Forum Lviv, 1st floor, Pid Dubom, 7B, Lviv",
-							"tracks": [
-								"Food",
-								"Restaurant",
-								"Shop"
-							],
-							"speakerNames": [
-								"Silpo"
-							],
-							"id": "1"
-						}
-					]
-				},
-				{
-					"time": "T",
-					"sessions": [
-						{
-							"name": "Tommy Hilfiger Lviv",
-							"location": "Mitskevycha Square, 8, L'viv,",
-							"speakerNames": [
-								"tommy Hilfiger"
-							],
-							"timeStart": "9:45 am",
-							"timeEnd": "10:00 am",
-							"tracks": [
-								"Shop",
-								"Clothes",
-								"Shoes"
-							],
-							"id": "4"
-						},
-						{
-							"name": "My Timberland Card",
-							"location": "Forum Lviv, 2nd floor, Pid Dubom, 7B, Lviv",
-							"speakerNames": [
-								"Timberland"
-							],
-							"tracks": [
-								"Clothes",
-								"Shoes",
-								"Shop"
-							],
-							"id": "7"
-						}
-					]
-				},
+
 				{
 					"time": "U",
 					"sessions": []
@@ -232,25 +152,6 @@
 				{
 					"time": "Y",
 					"sessions": []
-				},
-				{
-					"time": "Z",
-					"sessions": [
-						{
-							"name": "Zara Discount Card",
-							"location": "Forum Lviv, 1st floor, Pid Dubom, 7B, Lviv",
-							"description": "Mobile devices and browsers are now advanced enough that developers can build native-quality mobile apps using open web technologies like HTML5, Javascript, and CSS. In this talk, we’ll provide background on why and how we created Ionic, the design decisions made as we integrated Ionic with Angular, and the performance considerations for mobile platforms that our team had to overcome. We’ll also review new and upcoming Ionic features, and talk about the hidden powers and benefits of combining mobile app development and Angular.",
-							"speakerNames": [
-								"Zara"
-							],
-							"tracks": [
-								"Clothes",
-								"Shoes",
-								"Shop"
-							],
-							"id": "6"
-						}
-					]
 				}
 			]
 		}
@@ -265,7 +166,7 @@
 			"email": "burt@example.com",
 			"phone": "+1-541-754-3010",
 			"id": "1",
-			"background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmoNbblHWaDX4EwOSHUIkxW_vEhPRaFnKr25uPOBIGaQHls7Ql"
+			"background": "assets/img/offers/1.jpg"
 		},
 		{
 			"name": "!FEST",
@@ -276,7 +177,7 @@
 			"email": "charlie@example.com",
 			"phone": "+1-541-754-3010",
 			"id": "2",
-			"background": "https://23188-presscdn-pagely.netdna-ssl.com/wp-content/uploads/2011/09/Screen-Shot-2011-09-26-at-2.20.56-PM.png"
+			"background": "assets/img/offers/2.jpeg"
 		},
 		{
 			"name": "Tommy Hilfiger",
@@ -287,7 +188,7 @@
 			"email": "donald@example.com",
 			"phone": "+1-541-754-3010",
 			"id": "3",
-			"background": "https://smhttp-ssl-33667.nexcesscdn.net/manual/wp-content/uploads/2016/10/barbour-sale-800x410.jpg"
+			"background": "assets/img/offers/3.jpeg"
 		},
 		{
 			"name": "Luxoptica",
@@ -298,7 +199,7 @@
 			"email": "eva@example.com",
 			"phone": "+1-541-754-3010",
 			"id": "4",
-			"background": "https://www.moosejaw.com/moosejaw/Moosejaw/images/searchslot/TNF_SS.jpg"
+			"background": "assets/img/offers/4.jpg"
 		},
 		{
 			"name": "Zara",
@@ -309,7 +210,7 @@
 			"email": "ellie@example.com",
 			"phone": "+1-541-754-3010",
 			"id": "5",
-			"background": "http://sg.everydayonsales.com/wp-content/uploads/2013/05/Timberland-Sale-2013-All-Shopping-Discounts-Savings-Offer-EverydayOnSales_thumb.jpg"
+			"background": "assets/img/offers/5.png"
 		},
 		{
 			"name": "Timberland",
@@ -320,7 +221,7 @@
 			"email": "gino@example.com",
 			"phone": "+1-541-754-3010",
 			"id": "6",
-			"background": "https://www.offeraty.com/sites/default/files/styles/ofr_core_offer_sale/public/offers/zara.jpg?itok=XEjvYeoq"
+			"background": "assets/img/offers/6.jpg"
 		},
 		{
 			"name": "Foxtrot",
@@ -331,7 +232,7 @@
 			"email": "isabella@example.com",
 			"phone": "+1-541-754-3010",
 			"id": "7",
-			"background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmoNbblHWaDX4EwOSHUIkxW_vEhPRaFnKr25uPOBIGaQHls7Ql"
+			"background": "assets/img/offers/7.jpg"
 		},
 		{
 			"name": "Pharmacy D.S",
@@ -342,7 +243,7 @@
 			"email": "karl@example.com",
 			"phone": "+1-541-754-3010",
 			"id": "8",
-			"background": "http://www.everydayonsales.com/wp-content/uploads/2014/10/Lacoste-Off-Season-Clearance-Sale-Warehouse-2014-Malaysia-Fashion-Apparels-Shoes-Discounts-Jualan-Gudang-Kilang-Factory-Wholesale-Prices-Buy-Sell-Mega-Shopping-Great-Deals-EverydayOnSales.jpg"
+			"background": "assets/img/offers/8.jpg"
 		}
 	],
 	"map": [

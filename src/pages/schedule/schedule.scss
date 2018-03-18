@@ -15,10 +15,21 @@ $categories: (
 }
 
 page-schedule {
-  @each $track, $value in auxiliary-categories() {
-   ion-item-sliding[track=#{$track}] ion-label {
-     border-left: 2px solid $value;
-     padding-left: 10px;
-   }
+  .scroll-content {
+    background: linear-gradient(to bottom right, #0a0a29, #4ca4a1);
+  }
+
+  .item-wrapper {
+    background: transparent;
+
+    ion-card {
+      background: transparent;
+      height: 100%;
+    }
+  }
+
+  .card-image {
+    border-radius: 10px;
+    height: 180px;
   }
 }
