@@ -10,5 +10,8 @@
 <ion-content>
   <div class="scan_card_banner"></div>
   <button ion-button color="dark" full round (click)="scan()">Scan</button>
-  <ngx-barcode [bc-value]="barcodeData?.text" [bc-display-value]="showCard"></ngx-barcode>
+  <div *ngIf="showCard" style="margin: 0 auto; width: 100%;">
+    <ngx-barcode [bc-value]="barcodeData?.text" [bc-display-value]="showCard"></ngx-barcode>
+    <button ion-button color="dark" round>Save</button>
+  </div>
 </ion-content>
