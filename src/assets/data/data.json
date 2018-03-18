@@ -19,6 +19,42 @@
 					"time": "D",
 					"sessions": [
 						{
+							"name": "Patagonia",
+							"location": "Horodotska St, 181, Lviv",
+							"bg": "https://blog.patagonia.com/wp-content/uploads/2012/04/logo_featured_1-1404x778-c-default.jpg",
+							"tracks": [
+								"Shop",
+								"Clothes"
+							],
+							"id": "9",
+							"flipped": false,
+							"barcode": 103321231
+						},
+						{
+							"name": "The North Face",
+							"location": "Horodotska St, 181, Lviv",
+							"bg": "https://megasport.ua/storage/brands/nf-bg.jpg",
+							"tracks": [
+								"Shop",
+								"Clothes"
+							],
+							"id": "9",
+							"flipped": false,
+							"barcode": 213532131
+						},
+						{
+							"name": "Stone Island",
+							"location": "Horodotska St, 181, Lviv",
+							"bg": "https://www.flannels.com/images/marketing/new-stone-island-banner.jpg",
+							"tracks": [
+								"Shop",
+								"Clothes"
+							],
+							"id": "9",
+							"flipped": false,
+							"barcode": 873241123
+						},
+						{
 							"name": "Lacoste",
 							"location": "Horodotska St, 181, Lviv",
 							"bg": "assets/img/cards/Lacoste-Symbol.jpeg",
@@ -27,7 +63,8 @@
 								"Clothes"
 							],
 							"id": "9",
-							"flipped": false
+							"flipped": false,
+							"barcode": 3213565790
 						}
 					]
 				},
@@ -48,7 +85,21 @@
 								"Shop"
 							],
 							"id": "3",
-							"flipped": false
+							"flipped": false,
+							"barcode": 5668643231
+						},
+						{
+							"name": "Starbucks",
+							"bg": "https://wba-wpengine.netdna-ssl.com/wp-content/uploads/2016/11/Starbucks-logo.jpg",
+							"location": "Rynok Square, 10, L'viv",
+							"tracks": [
+								"Food",
+								"Restaurant",
+								"Shop"
+							],
+							"id": "3",
+							"flipped": false,
+							"barcode": 5431167112
 						},
 						{
 							"name": "Brocard",
@@ -62,7 +113,8 @@
 								"!Fest"
 							],
 							"id": "2",
-							"flipped": false
+							"flipped": false,
+							"barcode": 5465212334
 						},
 						{
 							"name": "Foxtrot Card",
@@ -77,7 +129,8 @@
 								"Shop"
 							],
 							"id": "8",
-							"flipped": false
+							"flipped": false,
+							"barcode": 5412365765
 						},
 						{
 							"name": "Medis",
@@ -87,7 +140,68 @@
 								"Health"
 							],
 							"id": "10",
-							"flipped": false
+							"flipped": false,
+							"barcode": 531237112
+						},
+						{
+							"name": "Levis",
+							"location": "Horodotska St, 181, Lviv",
+							"bg": "http://fondopantalla.com.es/file/2547/600x338/16:9/logotipo-levi%C2%B4s-fondo_243337023.jpg",
+							"tracks": [
+								"Shop",
+								"Clothes"
+							],
+							"id": "9",
+							"flipped": false,
+							"barcode": 901231234
+						},
+						{
+							"name": "Tommy Hilfiger",
+							"location": "Horodotska St, 181, Lviv",
+							"bg": "http://i.imgur.com/hthuCZH.jpg",
+							"tracks": [
+								"Shop",
+								"Clothes"
+							],
+							"id": "9",
+							"flipped": false,
+							"barcode": 3213123412
+						},
+						{
+							"name": "Fjallraven",
+							"location": "Horodotska St, 181, Lviv",
+							"bg": "https://img.gandrs.lv/content/articles/2013-08/tagad-gandra-variet-ievaskot-savu-fjallraven-turisma-apgerbu-nodrosinot-apgerba-udensizturibu-un-pagarinot-ta-muzu-600x256.jpg",
+							"tracks": [
+								"Shop",
+								"Clothes"
+							],
+							"id": "9",
+							"flipped": false,
+							"barcode": 3215654123
+						},
+						{
+							"name": "Barbour",
+							"location": "Horodotska St, 181, Lviv",
+							"bg": "http://www.wplavori.com/wp-content/uploads/2016/12/news_barbour-675x450.jpg",
+							"tracks": [
+								"Shop",
+								"Clothes"
+							],
+							"id": "9",
+							"flipped": false,
+							"barcode": 912353132
+						},
+						{
+							"name": "Moncler",
+							"location": "Horodotska St, 181, Lviv",
+							"bg": "https://i.pinimg.com/originals/1a/ae/af/1aaeafb5a0a36c6aac534fe477f97efe.jpg",
+							"tracks": [
+								"Shop",
+								"Clothes"
+							],
+							"id": "9",
+							"flipped": false,
+							"barcode": 766321323
 						}
 
 					]
